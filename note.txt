@@ -1,0 +1,22 @@
+
+Sau khi tạo quyền: php artisan cache:forget spatie.permission.cache
+            then
+            php artisan cache:clear
+
+Cấu hình mail (.env): Chức năng quên mật khẩu
+        MAIL_MAILER=smtp
+        MAIL_HOST=smtp.gmail.com
+        MAIL_PORT=587
+        MAIL_USERNAME=hoact98bgg@gmail.com
+        MAIL_PASSWORD=27B08c98a
+        MAIL_ENCRYPTION=tls
+        MAIL_FROM_ADDRESS=hoact98bgg@gmail.com
+        MAIL_FROM_NAME="${APP_NAME}"
+
+
+DB_CONNECTION=mysql
+DB_HOST=103.57.220.124
+DB_PORT=3306
+DB_DATABASE=dev_poly
+DB_USERNAME=root
+DB_PASSWORD=Dev@123123

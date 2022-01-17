@@ -1,0 +1,228 @@
+.container-content {
+    padding: 16px;
+    /* border: 1px solid #454f59; */
+    border-radius: 0.25rem;
+    background: var(--background-light);
+}
+
+.description {
+    /* =========== */
+    padding: 12px;
+}
+
+.description .desc-title h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.description .desc-time {
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    color: var(--black);
+}
+
+.description .short-desc {
+    font-size: 1.2rem;
+}
+
+.description #desc-box {
+    margin-top: 16px;
+    padding: 16px;
+}
+
+.description #desc-box .box-title h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.description #desc-box #box-list {
+    font-size: 1rem;
+}
+
+.description #desc-box #box-list li {
+    margin-bottom: 8px;
+}
+
+.description .desc-box1 {
+    border: 1px solid #bba9fb;
+    border-radius: 0.25rem;
+}
+
+.description .desc-box2 {
+    border: 1px solid #ffda4d;
+    border-radius: 0.25rem;
+}
+
+
+/* ============================== */
+
+.require {
+    /* =========== */
+    padding: 16px;
+}
+
+.require .require-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.25rem;
+    margin-bottom: 16px;
+}
+
+.require .require-title h5,
+.require .progres h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.list-require {
+    font-size: 1rem;
+}
+
+.list-require li {
+    margin-bottom: 8px;
+}
+
+.progres {
+    margin-top: 28px;
+}
+
+.require .progres p {
+    font-size: 1rem;
+    margin-bottom: 4px;
+    font-weight: 400;
+    color: var(--grey-color);
+}
+
+.require .progres .progres-level {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.require .progres .progres-level .progres-level-item {
+    background-color: var(--primary-color);
+    height: 6px;
+    width: 40px;
+    margin: 0 4px 0 0;
+    border-radius: 0.225rem;
+}
+
+.require .apply-button button {
+    padding: 12px;
+    width: 100%;
+    background: linear-gradient(to right, #6d2fff, #6f42c1);
+    border: 1px solid #454f59;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--white);
+    font-family: 'Poppins', sans-serif;
+    border-radius: var(--border-radius-main);
+}
+
+.list-product {
+    margin-bottom: 30px;
+}
+
+
+/* ======================================== */
+
+.product a {
+    text-decoration: none;
+    color: #0b0f32;
+}
+
+
+/* .product a:hover .product-content {
+    border: 1px solid #c5c8cc;
+} */
+
+.product-title h2 {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+}
+
+.product-item {
+    padding: 12px;
+ 
+}
+
+.product-item .product-content {
+    position: relative;
+    &:hover {
+        .lock-level {
+            display: block;}
+    }
+    background-color: var(--background-light);
+    border: 1px solid #ccc;
+    border-radius: var(--border-radius-main);
+    padding: 16px;
+}
+
+.product-content .product-image img {
+    width: 100%;
+    border-radius: 0.05rem;
+}
+
+.product-content .product-content-title {
+    padding-top: 16px;
+    margin-bottom: 12px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-color);
+}
+
+.product-content .product-desc {
+    line-height: 175%;
+    margin-bottom: 22px;
+    font-size: 1rem;
+}
+
+.product-content .product-level {
+    padding: 12px;
+    background-color: var(--white);
+    border-radius: 0.25rem;
+}
+
+.product-content .product-level .product-level-name p {
+    color: #737f8b;
+    font-size: 11px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 8px;
+}
+
+.product-content .product-level .product-level-main {
+    display: flex;
+}
+
+.product-content .product-level .product-level-item {
+    background-color: #e5eaf0;
+    width: 51px;
+    height: 6px;
+    border-radius: 0.125rem;
+    margin: 0 4px 0 0;
+}
+
+.product-content .product-level .product-level-item:first-child {
+    background-color: var(--primary-color);
+}
+
+.lock-level{
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    opacity: 0.5;
+    display:none;
+    object-fit: contain;
+}
+/* ======================================= */

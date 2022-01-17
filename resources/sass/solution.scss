@@ -1,0 +1,134 @@
+/* content */
+
+// .home-wapper main .content {
+//     font-family: 'Poppins', sans-serif;
+// }
+// .home-wapper main .content h1,
+// .home-wapper main .social h2 {
+//     font-weight: 500;
+//     font-size: 2.5rem;
+//     padding: 22px 0;
+//     margin: 0;
+//     font-family: 'Poppins', sans-serif;
+// }
+.content-item {
+    padding: 22px;
+    border: 1px solid var(--border-color-grey);
+    border-radius: var(--border-radius-main);
+    margin-bottom: 24px;
+    background-color: var(--background-light);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.06), 0 1px 2px 0 rgba(0, 0, 0, 0.04);
+    transition: 0.3s;
+}
+
+.solution-author {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.author-avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: var(--border-radius-main);
+    margin-right: 12px;
+}
+
+.author-avatar img {
+    width: 100%;
+    height: 100%;
+}
+
+.solution-title {
+    margin: 16px 0;
+}
+
+.solution-title h3 {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.solution-title h3:hover {
+    text-decoration: underline;
+}
+
+.help-message {
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.solution-help {
+    border-radius: var(--border-radius-main);
+    border: 1px solid var(--border-color-grey);
+    padding: 16px 12px;
+    cursor: pointer;
+}
+
+.solution-help span {
+    color: var(--purple);
+    font-family: 'Lato', sans-serif;
+}
+
+.solution-challenges {
+    padding: 12px;
+    border-radius: var(--border-radius-main);
+    background-color: var(--white);
+    margin: 22px 0 12px 0;
+    cursor: pointer;
+}
+
+.solution-action {
+    display: flex;
+    align-items: center;
+}
+
+.challenge-name p {
+    font-size: 1rem;
+}
+
+.challenge-level span {
+    font-family: 'Lato', sans-serif;
+}
+
+.challenge-img {
+    height: 110px;
+}
+
+.challenge-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: var(--border-radius-main);
+}
+
+.button-block-solution {
+    font-weight: 600;
+    border: 1px solid var(--border-color-grey);
+    border-radius: var(--border-radius-main);
+    padding: 9px 40px;
+    background: linear-gradient(to right, #6d2fff, #6f42c1);
+    color: var(--white);
+    display: flex;
+    width: 48%;
+    justify-content: center;
+}
+
+.upvote {
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.icon {
+    transform: rotate(-90deg);
+}
+
+.upvote span,
+.feedback span {
+    margin-left: 12px;
+}
+
+.MuiSvgIcon-fontSizeInherit {
+    margin: 0;
+}
+
+
+/* end content */

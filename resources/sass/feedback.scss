@@ -1,0 +1,219 @@
+.feedback-content {
+    padding: 12px;
+    background-color: var(--background-light);
+    border-radius: var(--border-radius-main);
+}
+
+.button-block {
+    font-weight: 600;
+    border: 1px solid var(--border-color-grey);
+    border-radius: var(--border-radius-main);
+    padding: 9px 40px;
+    background: linear-gradient(to right, #6d2fff, #6f42c1);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+}
+
+
+/*  */
+
+.feedback {
+    margin-bottom: 1rem;
+}
+
+.feedback-user-section {
+    padding: 0.6rem;
+    border-radius: var(--border-radius-main);
+    border: 1px solid var(--border-color-grey);
+    margin-top: 12px;
+    margin-bottom: 12pxz;
+}
+
+.feedback-title {
+    padding: 2.4rem 0;
+}
+
+.feedback-user-img {
+    margin-right: 12px;
+}
+
+.feedback-user-img img {
+    width: 32px;
+    height: 32px;
+}
+
+.feedback-user-info {
+    display: flex;
+}
+
+.feedback-user-name {
+    margin: 0;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.feedback-user-reputation {
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-feedback {
+    background-color: transparent;
+    border: 1px solid var(--grey-color);
+    padding: 4px 12px;
+    padding-right: 0;
+    border-radius: var(--border-radius-main);
+    color: var(--black);
+    outline: none;
+    display: inline-block;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+.btn-feedback span {
+    display: inline-block;
+    border-right: 1px solid #454f59;
+    padding-right: 12px;
+}
+
+.icon-feedback {
+    margin-left: 8px;
+}
+
+.feedback-detail,
+.reply-feedback-detail {
+    background-color: var(--white);
+    padding: 12px;
+    border-radius: var(--border-radius-main);
+    height: 100%;
+    font-size: 1.3rem;
+}
+
+.skill-list {
+    display: inline;
+}
+
+.user-skill-wrapper span {
+    display: inline-block;
+    margin-left: 4px;
+}
+
+.feedback-time {
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2px;
+    margin-bottom: 12px;
+    color: var(--grey-color);
+}
+
+.challenge-info {
+    padding: 16px;
+    border-radius: var(--border-radius-main);
+    background-color: var(--background-light);
+}
+
+.author-info {
+    height: 100%;
+}
+
+.author-avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: var(--border-radius-main);
+    margin-right: 12px;
+}
+
+.author-image {
+    width: 100%;
+    height: 100%;
+}
+
+.challenge-image {
+    width: 100%;
+    border-radius: var(--border-radius-main);
+    margin: 16px 0;
+}
+
+.challenge-title p {
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.author-name {
+    margin: 0;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+// .social h2 {
+//     font-weight: 500;
+//     font-size: 2.3rem;
+//     padding: 22px 0;
+//     margin: 0;
+//     font-family: 'Poppins', sans-serif;
+// }
+.reply-feedback {
+    padding: 12px;
+    background-color: var(--background-light);
+    border-radius: var(--border-radius-main);
+}
+
+.reply-feedback-user-info {
+    display: flex;
+    padding: 0.4rem;
+    border-radius: var(--border-radius-main);
+    border: 1px solid var(--border-color-grey);
+    margin-top: 12px;
+    margin-bottom: 12pxz;
+}
+
+.content-feedback {
+    border-bottom: 1px solid var(--background-light);
+    padding-bottom: 2.8rem;
+    margin-bottom: 1.8rem;
+}
+
+.feedback-wrapper {
+    position: relative;
+    z-index: 1;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.feedback-row {
+    width: 100%;
+}
+
+.feedback-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 2.3rem;
+    background-color: transparent;
+    border-left: 2px solid var(--background-light);
+    border-bottom: 2px solid var(--background-light);
+    border-radius: var(--border-radius-main);
+    width: 50%;
+    height: 10%;
+    height: -moz-calc(100% - 100px);
+    height: calc(100% - 100px);
+    z-index: -1;
+}
+
+@media (max-width: 992px) {
+    .reply-feedback-detail {
+        margin-top: 1rem;
+    }
+    .reply-feedback {
+        padding-bottom: 24px;
+    }
+}
